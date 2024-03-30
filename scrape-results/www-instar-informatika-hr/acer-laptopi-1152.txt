@@ -1,0 +1,32 @@
+Title: Acer Laptopi - Prodaja Acer laptopa po najnižim Cijenama - Instar Centar
+
+URL: https://www.instar-informatika.hr/acer-laptopi/1152/
+
+Selector: img.productEntityClick
+
+Image URLs:
+
+- https://www.instar-informatika.hr/slike/male/acer-extensa-15-i5-1135g712gb512gb156fhddos-18824-acr-nxegjex014_1.jpg
+- https://www.instar-informatika.hr/slike/male/acer-aspire-3-r7-5700u8gb512gb156fhddos-35867-acr-nxksjex00w_1.jpg
+- https://www.instar-informatika.hr/slike/male/notebook-acer-aspire-3-nxk6tex00d-156-fhd-ips-intel-core-i5--42570-46145885_214369.jpg
+- https://www.instar-informatika.hr/slike/male/notebook-acer-aspire-5-nxk80ex001-156-fhd-ips-amd-ryzen-5-56-82325-0001281445_189674.jpg
+- https://www.instar-informatika.hr/slike/male/acer-a315-58-71e8-i7-1165g7-156i-8gb-74446-46331248_1.jpg
+- https://www.instar-informatika.hr/slike/male/acer-aspire-5-r5-7530u16gb512gb156dos-41779-acr-nxkj7ex006_1.jpg
+- https://www.instar-informatika.hr/slike/male/acer-aspire-5-r5-5500u-20gb-512gb-inthd--acr-nxa7yex00j_1.jpg
+- https://www.instar-informatika.hr/slike/male/notebook-acer-extensa-15-nxeh3ex012-156-fhd-amd-ryzen-5-7520-32256-acr-nxegyex00r_257501.jpg
+- https://www.instar-informatika.hr/slike/male/acer-aspire-3-r7-5700u8gb512gb156fhdw11-401-acr-nxksjex00d_1.jpg
+- https://www.instar-informatika.hr/slike/male/notebook-acer-aspire-3-nxk6tex007-156-fhd-ips-intel-core-i7--18941-46145887_202955.jpg
+- https://www.instar-informatika.hr/slike/male/notebook-acer-aspire-5-nxk80ex003-156-fhd-ips-amd-ryzen-7-58-13150-0001305661_221422.jpg
+- https://www.instar-informatika.hr/slike/male/notebook-acer-aspire-3-nxksjex00g-156-fhd-amd-ryzen-7-5700u--86965-acr-nxksjex00g_1.jpg
+- https://www.instar-informatika.hr/slike/male/acer-ex215-54-51s4-i5-1135g7-156i-48gb-67890-46969203_1.jpg
+- https://www.instar-informatika.hr/slike/male/notebook-acer-aspire-5-nxkn4ex00g-156-fhd-ips-intel-core-i5--92812-46470397_1.jpg
+- https://www.instar-informatika.hr/slike/male/notebook-acer-aspire-3-nxk6tex00j-156-fhd-ips-intel-core-i5--73288-acr-nxk6tex00j_1.jpg
+- https://www.instar-informatika.hr/slike/male/acer-aspire-5-i5-12450h16gb512gb156fhddos-64679-acr-nxkn4ex00c_1.jpg
+- https://www.instar-informatika.hr/slike/male/acer-a317-54-56q2-i5-1235u-173i-2x8gb-57781-46969241_1.jpg
+- https://www.instar-informatika.hr/slike/male/notebook-acer-aspire-3-nxksjex00f-156-fhd-amd-ryzen-7-5700u--32017-46484107_1.jpg
+- https://www.instar-informatika.hr/slike/male/notebook-acer-aspire-3-nxksjex00f-156-fhd-amd-ryzen-7-5700u--94704-5023118_1.jpg
+- https://www.instar-informatika.hr/slike/male/not-ac-a315-44p-r5bf-nxksjex008-18484-0001332260_1.jpg
+- https://www.instar-informatika.hr/slike/male/acer-swift-3-sf314-43-r33e-16gb-512gb-4370998_1.jpg
+- https://www.instar-informatika.hr/slike/male/acer-sf314-43-r8ct-r5-5500u-14i-16gb-46937-46145890_1.jpg
+- https://www.instar-informatika.hr/slike/male/notebook-acer-aspire-gaming-7-nhqn4ex006-156-fhd-ips-144hz-i-98416-46470391_248384.jpg
+- https://www.instar-informatika.hr/slike/male/156fhd-ipsi5-12450h16gbs512gbintw11hgry2y-41889-0001332334_1.jpg

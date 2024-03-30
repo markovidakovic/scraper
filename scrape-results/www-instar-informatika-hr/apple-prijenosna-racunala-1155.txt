@@ -1,0 +1,32 @@
+Title: Apple Laptopi - Prodaja Apple laptopa po najnižim Cijenama - Instar Centar
+
+URL: https://www.instar-informatika.hr/apple-prijenosna-racunala/1155/
+
+Selector: img.productEntityClick
+
+Image URLs:
+
+- https://www.instar-informatika.hr/slike/male/notebook-apple-macbook-air-13-retina-m1--mgn63ze_1.jpg
+- https://www.instar-informatika.hr/slike/male/notebook-macbook-air-13-retina-m1-quad-c-mgn63cr_1.jpg
+- https://www.instar-informatika.hr/slike/male/notebook-apple-macbook-air-133-retina-m1-mgn93cr_1.jpg
+- https://www.instar-informatika.hr/slike/male/notebook-macbook-air-13-retina-m1-quad-c-mgnd3cr-a_1.jpg
+- https://www.instar-informatika.hr/slike/male/notebook-apple-macbook-air-136-retina-m2-octa-core-8gb-ram-2-83655-mlxw3cr_177683.jpg
+- https://www.instar-informatika.hr/slike/male/notebook-apple-macbook-air-136-retina-m2-octa-core-8gb-ram-2-85029-mlxy3cr_1.jpg
+- https://www.instar-informatika.hr/slike/male/notebook-apple-macbook-air-136-retina-m2-octa-core-8gb-ram-2-58795-mlxy3cr-59357_1.jpg
+- https://www.instar-informatika.hr/slike/male/notebook-apple-macbook-air-13-retina-m3-octa-core-8gb-ram-25-61646-mrxn3cr_1.jpg
+- https://www.instar-informatika.hr/slike/male/notebook-apple-macbook-air-13-retina-m3-octa-core-8gb-ram-25-98035-mrxq3cr_1.jpg
+- https://www.instar-informatika.hr/slike/male/notebook-apple-macbook-air-136-retina-m2-octa-core-8gb-ram-5-94985-mlxx3cr_206410.jpg
+- https://www.instar-informatika.hr/slike/male/notebook-apple-macbook-air-136-retina-m2-octa-core-8gb-ram-5-9113-mly43-57502_1.jpg
+- https://www.instar-informatika.hr/slike/male/clone-notebook-apple-macbook-air-136-retina-m2-octa-core-8gb-20550-mlxy3cr-59356_1.jpg
+- https://www.instar-informatika.hr/slike/male/notebook-apple-macbook-air-153-retina-m2-octa-core-8gb-ram-2-31886-mqkp3-7603-7605_1.jpg
+- https://www.instar-informatika.hr/slike/male/notebook-apple-macbook-air-153-retina-m2-octa-core-8gb-ram-2-85224-mqkp3-7603-7604_1.jpg
+- https://www.instar-informatika.hr/slike/male/notebook-apple-macbook-air-15-retina-m3-octa-core-8gb-ram-25-484-mrym3cr_1.jpg
+- https://www.instar-informatika.hr/slike/male/notebook-apple-macbook-air-136-retina-m2-octa-core-8gb-ram-5-98654-mly23cr_1.jpg
+- https://www.instar-informatika.hr/slike/male/notebook-apple-macbook-air-136-retina-m2-octa-core-8gb-ram-5-86306-mly43-57504_1.jpg
+- https://www.instar-informatika.hr/slike/male/notebook-apple-macbook-air-153-retina-m2-octa-core-8gb-ram-2-36042-mqkp3_1.jpg
+- https://www.instar-informatika.hr/slike/male/notebook-apple-macbook-air-153-retina-m2-octa-core-8gb-ram-5-53011-mqkq3cr_1.jpg
+- https://www.instar-informatika.hr/slike/male/notebook-apple-macbook-air-153-retina-m2-octa-core-8gb-ram-5-8883-mqkt3cr_1.jpg
+- https://www.instar-informatika.hr/slike/male/notebook-apple-macbook-air-153-retina-m2-octa-core-8gb-ram-5-81450-mqkv3cr_1.jpg
+- https://www.instar-informatika.hr/slike/male/notebook-apple-macbook-pro-14-retina-m3-octa-core-8gb-ram-51-28300-mr7j3ze_1.jpg
+- https://www.instar-informatika.hr/slike/male/macbook-pro-14-apple-m3-8c-cpu-10c-gpu-8gb-512gb-space-gray--63809-mtl73ze_1.jpg
+- https://www.instar-informatika.hr/slike/male/notebook-apple-macbook-pro-14-retina-m3-octa-core-8gb-ram-51-28300-mr7j3ze_1.jpg

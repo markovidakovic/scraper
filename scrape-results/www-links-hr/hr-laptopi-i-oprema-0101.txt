@@ -1,0 +1,24 @@
+Title: LAPTOPI I OPREMA - Links
+
+URL: https://www.links.hr/hr/laptopi-i-oprema-0101
+
+Selector: .picture img
+
+Image URLs:
+
+- https://www.links.hr/content/images/thumbs/019/0198006_laptop-lenovo-thinkpad-l15-g4-21h30031sc-core-i5-1335u-16gb-512gb-ssd-intel-hd-graphics-15-6-fhd-ip_164.jpg
+- https://www.links.hr/content/images/thumbs/019/0193969_laptop-lenovo-thinkpad-t14s-g4-21f6003usc-core-i5-1335u-32gb-1tb-ssd-intel-hd-graphics-14-wuxga-ips_164.jpg
+- https://www.links.hr/content/images/thumbs/019/0199496_laptop-lenovo-thinkpad-t16-g2-21hh0073sc-core-i5-1335u-16gb-512gb-ssd-intel-hd-graphics-16-wuxga-ip_164.jpg
+- https://www.links.hr/content/images/thumbs/019/0197114_laptop-lenovo-thinkpad-e16-g1-21jn004xsc-core-i7-1355u-24gb-1tb-ssd-intel-hd-graphics-16-wuxga-ips-_164.jpg
+- https://www.links.hr/content/images/thumbs/009/0093585_prijenosno-racunalo-apple-macbook-air-133-retina-mgn93cra-octacore-apple-m1-8gb-256gb-ssd-apple-grap_164.jpg
+- https://www.links.hr/content/images/thumbs/019/0191922_laptop-apple-macbook-pro-16-mrw43cr-a-12-core-m3-pro-18gb-512gb-ssd-18-core-apple-gpu-16-3456x2234-_164.jpg
+- https://www.links.hr/content/images/thumbs/019/0191934_laptop-apple-macbook-pro-16-mrw73cr-a-14-core-m3-max-36gb-1tb-ssd-30-core-apple-gpu-16-3456x2234-12_164.jpg
+- https://www.links.hr/content/images/thumbs/009/0093583_prijenosno-racunalo-apple-macbook-air-13-3-retina-mgn63cr-a-octacore-apple-m1-8gb-256gb-ssd-apple-g_164.jpg
+- https://www.links.hr/content/images/thumbs/009/0098435_torba-za-prijenosno-racunalo-port-l15-top-loading-14-15-6-crna-016020429_164.jpg
+- https://www.links.hr/content/images/thumbs/017/0174543_torba-za-laptop-sbox-oklahoma-crna-15-6-010198027_164.png
+- https://www.links.hr/content/images/thumbs/009/0093383_docking-station-d-link-dub-m530-usb-c-na-2x-usb-3-1-hdmi-card-reader-za-notebook-016008099_164.jpg
+- https://www.links.hr/content/images/thumbs/003/0038965_punjac-za-notebook-lc-power-lc65nb-pro-65w-univerzalni-016002051_164.jpg
+- https://www.links.hr/content/images/thumbs/020/0206855_rabljeni-laptop-acer-aspire-3-nx-ad0ex-00q-core-i3-1115g4-8gb-128gb-ssd-intel-hd-graphics-17-3-fhd-_164.jpg
+- https://www.links.hr/content/images/thumbs/020/0206317_rabljeni-laptop-lenovo-ideapad-1-82vg005jsc-ryzen-5-7520u-16gb-1tb-ssd-amd-radeon-graphics-156-fhd-i_164.jpg
+- https://www.links.hr/content/images/thumbs/020/0207018_laptop-asus-rog-strix-g17-g713pv-ll047w-ryzen-9-7845hx-16gb-1tb-ssd-nvidia-geforce-rtx-4060-17-3-wq_164.jpg
+- https://www.links.hr/content/images/thumbs/020/0206808_laptop-lenovo-v15-g4-83a100absc-core-i5-13420h-16gb-512gb-ssd-intel-hd-graphics-15-6-fhd-ips-bez-os_164.jpg
