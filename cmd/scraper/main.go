@@ -246,49 +246,60 @@ func handleScrapeResult(result ScrapeResult) {
 	}
 
 	if downloadImages {
+		// the fileName var will be used as a folder name for the images
 		fldrImages := path.Join(fldrPath, fileName)
-		fmt.Printf("fldrImages: %v\n", fldrImages)
 		err := os.MkdirAll(fldrImages, 0755)
 		if err != nil {
 			log.Println("error creating the images directory:", err)
 			return
 		}
 
+		var wg sync.WaitGroup
+
 		for _, imgUrl := range result.ImgUrls {
+			wg.Add(1)
+
 			imgName := path.Base(imgUrl)
 			imgExt := path.Ext(imgName)
 			imgName = strings.TrimSuffix(imgName, imgExt)
-			fmt.Printf("imgName: %v\n", imgName)
 
-			resp, err := http.Get(imgUrl)
-			if err != nil {
-				log.Println("error downloading the image:", err)
-				continue
-			}
-			defer resp.Body.Close()
+			go func(imgUrl, imgName, imgExt, fldrImages string) {
+				defer wg.Done()
 
-			// check the response status code
-			if resp.StatusCode < 200 || resp.StatusCode >= 300 {
-				log.Printf("error downloading the image %s: %s\n", imgName, resp.Status)
-				continue
-			}
+				// fetch the image
+				resp, err := http.Get(imgUrl)
+				if err != nil {
+					log.Println("error downloading the image:", err)
+					return
+				}
+				defer resp.Body.Close()
 
-			// create the image file
-			imgFile, err := os.Create(fmt.Sprintf("%s/%s%s", fldrImages, imgName, imgExt))
-			if err != nil {
-				log.Println("error creating the image file:", err)
-				continue
-			}
-			defer imgFile.Close()
+				// check the response status code
+				if resp.StatusCode < 200 || resp.StatusCode >= 300 {
+					log.Printf("error downloading the image %s: %s\n", imgName, resp.Status)
+					return
+				}
 
-			// copy response body (image data) to the file
-			_, err = io.Copy(imgFile, resp.Body)
-			if err != nil {
-				log.Println("error copying the image data to the file:", err)
-				continue
-			}
+				// create the image file
+				imgFile, err := os.Create(fmt.Sprintf("%s/%s%s", fldrImages, imgName, imgExt))
+				if err != nil {
+					log.Println("error creating the image file:", err)
+					return
+				}
+				defer imgFile.Close()
+
+				// copy response body (image data) to the file
+				_, err = io.Copy(imgFile, resp.Body)
+				if err != nil {
+					log.Println("error copying the image data to the file:", err)
+					return
+				}
+			}(imgUrl, imgName, imgExt, fldrImages)
 		}
+
+		wg.Wait()
+		log.Printf("scrape result images saved to folder: %s\n", fldrImages)
 	}
 
-	log.Printf("scrape result saved to %s\n", fileName)
+	log.Printf("scrape result saved to file: %s\n", filePath)
 }

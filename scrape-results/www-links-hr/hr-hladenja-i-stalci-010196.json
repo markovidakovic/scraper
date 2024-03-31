@@ -1,0 +1,18 @@
+{
+ "title": "Hlađenja i stalci - Links",
+ "url": "https://www.links.hr/hr/hladenja-i-stalci-010196",
+ "selector": ".picture img",
+ "img_urls": [
+  "https://www.links.hr/content/images/thumbs/019/0199420_hot-deal-ponuda_60.jpeg",
+  "https://www.links.hr/content/images/thumbs/020/0204345_odaberi-opremu-prema-svojoj-djelatnosti_60.jpeg",
+  "https://www.links.hr/content/images/thumbs/020/0204973_spring-sale-asus_60.jpeg",
+  "https://www.links.hr/content/images/thumbs/020/0205110_beat-the-game_60.jpeg",
+  "https://www.links.hr/content/images/thumbs/017/0175359_hladenje-za-laptop-white-shark-ice-ghost-do-17-3-crno-010196009_164.jpg",
+  "https://www.links.hr/content/images/thumbs/017/0172804_stalak-za-laptop-sbox-cp-08-crni-010196008_164.png",
+  "https://www.links.hr/content/images/thumbs/018/0186195_stalak-za-laptop-sbox-cp-31-do-17-rotacijski-sivi-010196011_164.jpg",
+  "https://www.links.hr/content/images/thumbs/006/0069913_hladenje-za-notebook-ewent-ew1259-do-17-5-crno-016004091_164.jpg",
+  "https://www.links.hr/content/images/thumbs/010/0106779_hladenje-za-notebook-ewent-ew1260-do-17-3-rgb-silent-crno-016004111_164.jpg",
+  "https://www.links.hr/content/images/thumbs/009/0093862_hladenje-za-notebook-sbox-cp-101-do-15-6-crno-016004107_164.jpg",
+  "https://www.links.hr/content/images/thumbs/013/0134978_nosac-za-prijenosno-racunalo-ewent-10-15-6-srebrni-016004115_164.jpg"
+ ]
+}
