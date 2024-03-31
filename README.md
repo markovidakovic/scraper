@@ -1,6 +1,6 @@
 # scraper
 
-web scraper program
+web image scraper program
 
 ### build the program
 
