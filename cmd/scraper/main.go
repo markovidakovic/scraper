@@ -36,12 +36,10 @@ type ScrapeResult struct {
 }
 
 func main() {
-	// scraped results file format flag
 	flag.StringVar(&outputFileFormat, "output-file-format", "txt", "scraped results file format (txt, csv, json, xml)")
 	flag.BoolVar(&downloadImages, "download", false, "download the scraped images")
 	flag.Parse()
 
-	// display the message to the user
 	fmt.Println("enter the website url and its corresponding html selector separated by a comma to scrape content from (one per line)\nexample: https://www.example.com,div.product-image img")
 	fmt.Println("to start scraping type 'start'. to exit type 'exit' or press 'ctrl + c'")
 
@@ -50,7 +48,6 @@ func main() {
 	websites := make(map[string]string)
 	scrapeResults := make(chan ScrapeResult)
 
-	// read input from the user
 	for {
 		fmt.Print("website url and html selector: ")
 		scanner.Scan()
@@ -80,23 +77,19 @@ func main() {
 
 	}
 
-	// create a wait group to sync the goroutines
 	var wg sync.WaitGroup
 
-	// iterate over websites and scrape the content
 	for url, selector := range websites {
 		wg.Add(1)
 
 		go func(url, selector string) {
 			defer wg.Done()
 
-			// scrape the website content
 			scrapeWebsite(url, selector, scrapeResults)
 		}(url, selector)
 	}
 
 	go func() {
-		// wait for all the goroutines to finish and close the channel
 		wg.Wait()
 		close(scrapeResults)
 	}()
@@ -106,7 +99,6 @@ func main() {
 		log.Println("error creating the srape results directory:", err)
 	}
 
-	// iterate over the scrape results
 	for result := range scrapeResults {
 		wg.Add(1)
 		go func(result ScrapeResult) {
@@ -120,7 +112,6 @@ func main() {
 func scrapeWebsite(url, selector string, results chan<- ScrapeResult) {
 	log.Printf("scraping the website: %s\n", url)
 
-	// fetch the website content
 	resp, err := http.Get(url)
 	if err != nil {
 		log.Println("error fetching the website:", err)
@@ -134,28 +125,22 @@ func scrapeWebsite(url, selector string, results chan<- ScrapeResult) {
 		log.Println("error parsing the html content:", err)
 	}
 
-	// extract doc title
 	title := doc.Find("title").Text()
 
-	// extract the desired content from the website (images in this case)
 	elems := doc.Find(selector)
 
-	// slice of image urls
 	imgUrls := make([]string, 0)
 
 	elems.Each(func(i int, elem *goquery.Selection) {
 		val, exists := elem.Attr("src")
 		if exists {
-			// perform a http head request to the image url to check if it's valid
 			resp, err := http.Head(val)
 			if err != nil {
 				log.Printf("error checking the image url %s: %v\n", val, err)
 			}
 			defer resp.Body.Close()
 
-			// check if response status code is in the 2xx range
 			if resp.StatusCode >= 200 || resp.StatusCode < 300 {
-				// check if the content type is an image
 				contentType := resp.Header.Get("Content-Type")
 
 				if contentType == "image/jpeg" || contentType == "image/png" || contentType == "image/gif" {
@@ -246,7 +231,6 @@ func handleScrapeResult(result ScrapeResult) {
 	}
 
 	if downloadImages {
-		// the fileName var will be used as a folder name for the images
 		fldrImages := path.Join(fldrPath, fileName)
 		err := os.MkdirAll(fldrImages, 0755)
 		if err != nil {
@@ -274,13 +258,11 @@ func handleScrapeResult(result ScrapeResult) {
 				}
 				defer resp.Body.Close()
 
-				// check the response status code
 				if resp.StatusCode < 200 || resp.StatusCode >= 300 {
 					log.Printf("error downloading the image %s: %s\n", imgName, resp.Status)
 					return
 				}
 
-				// create the image file
 				imgFile, err := os.Create(fmt.Sprintf("%s/%s%s", fldrImages, imgName, imgExt))
 				if err != nil {
 					log.Println("error creating the image file:", err)
@@ -288,7 +270,6 @@ func handleScrapeResult(result ScrapeResult) {
 				}
 				defer imgFile.Close()
 
-				// copy response body (image data) to the file
 				_, err = io.Copy(imgFile, resp.Body)
 				if err != nil {
 					log.Println("error copying the image data to the file:", err)
